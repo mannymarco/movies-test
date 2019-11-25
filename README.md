@@ -1,6 +1,8 @@
 ﻿# movies-test
 
-## Installation
+## How to run
+
+https://mmw-companieshouse-test.herokuapp.com/v
 
 ### Links
 
