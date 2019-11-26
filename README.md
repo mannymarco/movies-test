@@ -1,16 +1,46 @@
 ﻿# movies-test
-
+___
 ## How to run
+
+### Using Heroku
 
 https://mmw-companieshouse-test.herokuapp.com/
 
-### Links
+#### Links
 
 - Healthcheck: https://mmw-companieshouse-test.herokuapp.com/healthcheck
 - All movies: https://mmw-companieshouse-test.herokuapp.com/movies
 - Movie by movie_id: https://mmw-companieshouse-test.herokuapp.com/movies/1
 - Report: https://mmw-companieshouse-test.herokuapp.com/movies/report
+---
+### Using Localhost
 
+```bash
+git clone https://github.com/mattdotmac/movies-test.git
+```
+From the project root directory:
+```bash
+npm install
+```
+```bash
+mongoimport --db movie-data-microservice --collection movies --file movies.json
+```
+
+You will also need to create a config directory at root. Inside, create 2 files: dev.env and test.env. Populate each with the following:
+
+```env
+PORT=8080
+MONGODB_URL=mongodb://127.0.0.1:27017/movie-data-microservice
+```
+Finally, run ```npm run dev```. For testing: ```npm run test```
+#### Links
+
+localhost:8080/healthcheck
+
+localhost:8080/movies
+localhost:8080/movies/1
+localhost:8080/movies/report
+___
 ## Technology choices and justifications
 
 For this project I have selected the following technologies:
