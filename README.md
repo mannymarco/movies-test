@@ -35,11 +35,10 @@ MONGODB_URL=mongodb://127.0.0.1:27017/movie-data-microservice
 Finally, run ```npm run dev```. For testing: ```npm run test```
 #### Links
 
-localhost:8080/healthcheck
-
-localhost:8080/movies
-localhost:8080/movies/1
-localhost:8080/movies/report
+- localhost:8080/healthcheck
+- localhost:8080/movies
+- localhost:8080/movies/1
+- localhost:8080/movies/report
 ___
 ## Technology choices and justifications
 
