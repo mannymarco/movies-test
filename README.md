@@ -9,7 +9,7 @@ https://mmw-companieshouse-test.herokuapp.com/
 - Healthcheck: https://mmw-companieshouse-test.herokuapp.com/healthcheck
 - All movies: https://mmw-companieshouse-test.herokuapp.com/movies
 - Movie by movie_id: https://mmw-companieshouse-test.herokuapp.com/movies/1
-- Report: https://mmw-companieshouse-test.herokuapp.com/report
+- Report: https://mmw-companieshouse-test.herokuapp.com/movies/report
 
 ## Technology choices and justifications
 
